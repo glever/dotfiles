@@ -196,7 +196,7 @@
 # }
 # 
 # alias cd=cd_func
-source ${HOME}/.bashscripts/git-prompt.sh
+source ${HOME}/.git-prompt.sh
 export PS1='\[\033[33m\]\w$(__git_ps1)\[\033[0m\]\n$'
 TERM=xterm-256color
 
