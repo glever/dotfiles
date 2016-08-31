@@ -22,6 +22,7 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Raimondi/delimitMate'
+Plugin 'mattn/emmet-vim'
 
 " git repos on your local machine (i.e. when working on your own plugin)
 " Plugin 'file:///home/gmarik/path/to/plugin'
@@ -61,7 +62,7 @@ set noexpandtab
 set tabstop=2
 set shiftwidth=2
 set wildmenu
-colorscheme pablo
+colorscheme pablo 
 """"""""""""""""""""
 " custom shortcuts "
 """"""""""""""""""""
