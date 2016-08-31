@@ -203,3 +203,4 @@ TERM=xterm-256color
 if command -v tmux>/dev/null; then
   [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux
 fi
+alias ls="ls --color=always"

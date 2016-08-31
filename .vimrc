@@ -50,19 +50,19 @@ filetype plugin indent on    " required
 
 " Standard vim settings
 set relativenumber
-
-" Airline customization
-set t_Co=256 " set 256 colors
-set laststatus=2
-set encoding=utf-8
-"let g:airline_powerline_fonts=1
-
+set number
 set autoindent
 set noexpandtab
 set tabstop=2
 set shiftwidth=2
 set wildmenu
 colorscheme pablo 
+
+" Airline customization
+set t_Co=256 " set 256 colors
+set laststatus=2
+set encoding=utf-8
+"let g:airline_powerline_fonts=1
 """"""""""""""""""""
 " custom shortcuts "
 """"""""""""""""""""
