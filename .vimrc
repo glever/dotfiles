@@ -51,6 +51,7 @@ filetype plugin indent on    " required
 " Standard vim settings
 set relativenumber
 set number
+set showcmd
 set autoindent
 set noexpandtab
 set tabstop=2
