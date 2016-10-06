@@ -23,6 +23,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'
+Plugin 'morhetz/gruvbox'
 
 " git repos on your local machine (i.e. when working on your own plugin)
 " Plugin 'file:///home/gmarik/path/to/plugin'
@@ -57,7 +58,10 @@ set noexpandtab
 set tabstop=2
 set shiftwidth=2
 set wildmenu
-colorscheme pablo 
+colorscheme gruvbox 
+set background=dark
+" workaround tmux vim background weirdness
+set t_ut=
 
 " Airline customization
 set t_Co=256 " set 256 colors
