@@ -70,6 +70,7 @@ set encoding=utf-8
 set mouse=a
 " fix tmux mouse resize 
 set ttymouse=xterm2
+set cursorline
 "let g:airline_powerline_fonts=1
 """"""""""""""""""""
 " custom shortcuts "
