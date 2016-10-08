@@ -1,5 +1,6 @@
-ln -sn ./.bashrc ~/.bashrc
-ln -sn ./.git-prompt.sh ~/.git-prompt.sh
-ln -sn ./.inputrc ~/.inputrc
-ln -sn ./.tmux.conf ~/.tmux.conf
-ln -sn ./.vimrc ~/.vimrc
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+ln -snf $DIR/.bashrc ~/.bashrc
+ln -snf $DIR/.inputrc ~/.inputrc
+ln -snf $DIR/.tmux.conf ~/.tmux.conf
+ln -snf $DIR/.vimrc ~/.vimrc
+ln -snf $DIR/.git-prompt.sh ~/.git-prompt.sh 
