@@ -7,3 +7,33 @@
 [submodule ".vim/pack/glever/start/delimitMate"]
 	path = .vim/pack/glever/start/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
+[submodule ".vim/pack/glever/start/emmet-vim"]
+	path = .vim/pack/glever/start/emmet-vim
+	url = http://github.com/mattn/emmet-vim.git
+[submodule ".vim/pack/glever/start/vim-fugitive"]
+	path = .vim/pack/glever/start/vim-fugitive
+	url = http://github.com/tpope/vim-fugitive.git
+[submodule ".vim/pack/glever/start/nerdtree"]
+	path = .vim/pack/glever/start/nerdtree
+	url = http://github.com/scrooloose/nerdtree.git
+[submodule ".vim/pack/glever/start/vim-airline"]
+	path = .vim/pack/glever/start/vim-airline
+	url = http://github.com/vim-airline/vim-airline.git
+[submodule ".vim/pack/glever/start/vim-airline-themes"]
+	path = .vim/pack/glever/start/vim-airline-themes
+	url = http://github.com/vim-airline/vim-airline-themes.git
+[submodule ".vim/pack/glever/start/vim-surround"]
+	path = .vim/pack/glever/start/vim-surround
+	url = http://github.com/tpope/vim-surround.git
+[submodule ".vim/pack/glever/start/vim-javascript-syntax"]
+	path = .vim/pack/glever/start/vim-javascript-syntax
+	url = http://github.com/jelera/vim-javascript-syntax.git
+[submodule ".vim/pack/glever/start/vim-javascript"]
+	path = .vim/pack/glever/start/vim-javascript
+	url = http://github.com/pangloss/vim-javascript.git
+[submodule ".vim/pack/glever/start/vim-indent-guides"]
+	path = .vim/pack/glever/start/vim-indent-guides
+	url = http://github.com/nathanaelkane/vim-indent-guides.git/
+[submodule ".vim/pack/glever/start/gruvbox"]
+	path = .vim/pack/glever/start/gruvbox
+	url = https://github.com/morhetz/gruvbox

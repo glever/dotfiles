@@ -1,53 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'tpope/vim-fugitive'
-Plugin 'L9'
-Plugin 'scrooloose/nerdtree'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-" List below came from http://oli.me.uk/2013/06/29/equipping-vim-for-javascript/
-Plugin 'tpope/vim-surround'
-Plugin 'jelera/vim-javascript-syntax'
-Plugin 'pangloss/vim-javascript'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'Raimondi/delimitMate'
-Plugin 'mattn/emmet-vim'
-Plugin 'morhetz/gruvbox'
-
-" git repos on your local machine (i.e. when working on your own plugin)
-" Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 
 " Standard vim settings
 set relativenumber
@@ -71,10 +24,37 @@ set mouse=a
 " fix tmux mouse resize 
 set ttymouse=xterm2
 set cursorline
+
+set foldmethod=syntax
+set foldlevelstart=1
+let javaScript_fold=1         " JavaScript
+let perl_fold=1               " Perl
+let php_folding=1             " PHP
+let r_syntax_folding=1        " R
+let ruby_fold=1               " Ruby
+let sh_fold_enabled=1         " sh
+let vimsyn_folding='af'       " Vim script
+let xml_syntax_folding=1      " XML
+
+
 "let g:airline_powerline_fonts=1
 """"""""""""""""""""
 " custom shortcuts "
 """"""""""""""""""""
-" F7=reindent whole file and place cursor where you left it
+" F7=reformat file
 map <F7> mzgg=G`z
 
+" CTRL-Tab is next tab
+noremap <C-Tab> :<C-U>tabnext<CR>
+inoremap <C-Tab> <C-\><C-N>:tabnext<CR>
+cnoremap <C-Tab> <C-C>:tabnext<CR>
+" CTRL-SHIFT-Tab is previous tab
+noremap <C-S-Tab> :<C-U>tabprevious<CR>
+inoremap <C-S-Tab> <C-\><C-N>:tabprevious<CR>
+cnoremap <C-S-Tab> <C-C>:tabprevious<CR>
+" ergonomical escape
+inoremap jj <ESC>
+filetype plugin on
+
+let g:tsuquyomi_use_local_typescript = 0
+let g:tsuquyomi_use_dev_node_module = 0
