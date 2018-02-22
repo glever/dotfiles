@@ -37,3 +37,18 @@
 [submodule ".vim/pack/glever/start/gruvbox"]
 	path = .vim/pack/glever/start/gruvbox
 	url = https://github.com/morhetz/gruvbox
+[submodule ".vim/pack/glever/start/typescript-vim"]
+	path = .vim/pack/glever/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim
+[submodule ".vim/pack/glever/start/Quramy-vim-js-pretty-template"]
+	path = .vim/pack/glever/start/Quramy-vim-js-pretty-template
+	url = https://github.com/Quramy/vim-js-pretty-template
+[submodule ".vim/pack/glever/start/jason0x43/vim-js-indent"]
+	path = .vim/pack/glever/start/jason0x43/vim-js-indent
+	url = https://github.com/jason0x43/vim-js-indent
+[submodule ".vim/pack/glever/start/vim-js-pretty-template"]
+	path = .vim/pack/glever/start/vim-js-pretty-template
+	url = https://github.com/Quramy/vim-js-pretty-template
+[submodule ".vim/pack/glever/start/YouCompleteMe"]
+	path = .vim/pack/glever/start/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe

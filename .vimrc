@@ -55,6 +55,6 @@ cnoremap <C-S-Tab> <C-C>:tabprevious<CR>
 " ergonomical escape
 inoremap jj <ESC>
 filetype plugin on
-
 let g:tsuquyomi_use_local_typescript = 0
 let g:tsuquyomi_use_dev_node_module = 0
+let g:tsuquyomi_completion_detail = 1
