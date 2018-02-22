@@ -1,0 +1,3 @@
+[submodule ".vim/pack/glever/start/tsuquyomi"]
+	path = .vim/pack/glever/start/tsuquyomi
+	url = https://github.com/Quramy/tsuquyomi.git
