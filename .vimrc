@@ -58,3 +58,13 @@ filetype plugin on
 let g:tsuquyomi_use_local_typescript = 0
 let g:tsuquyomi_use_dev_node_module = 0
 let g:tsuquyomi_completion_detail = 1
+
+# Python Configs
+au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
